@@ -1,6 +1,7 @@
 .logo-header{
-    height: 80px;
-    width: auto;
+    max-height: 80px;
+    min-width: 60px;
+    width: 100%;
 }
 .active{
     background-color: black;
@@ -28,5 +29,21 @@
 .navbar-brand{
     padding-top: 8px;
 }
+.navbar-toggler{
+    border: none;
+}
 
+@media (max-width: 500px) {
+    .navbar-toggler{
+        margin-left: 150px;
+    }
+    .res-padding{
+        padding: 0px 1.5rem !important;
+    }
+}
+@media (max-width: 360px) {
+    .navbar-toggler{
+        margin-left: 100px;
+    }
+}
 
