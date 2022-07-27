@@ -36,10 +36,47 @@
   opacity: 1;
   transform: scale(1);
 }
-.card{
+.card-product{
     background-color: #f8f4f4;
+    border-radius: 25px;
     border: none;
 }
 .padding-card{
     padding: 40px 85px;
+}
+.card-text-product{
+    margin-bottom: 0px;
+}
+.btn-buy-black{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    visibility: show;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.btn-buy-black:hover svg{
+    fill: black;
+    transition-delay: 100ms;
+}
+.card-text-product{
+    transition: all 0.4s ease;
+}
+.card-product:hover .card-text-product{
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+.card-product:hover .btn-buy-black{
+    visibility: show;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+.card-img-top{
+    transition: all 0.4s ease;
+}
+.card-product:hover .card-img-top{
+    transform: scale(110%);
+    transition: all 0.4s ease;
 }

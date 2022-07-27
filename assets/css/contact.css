@@ -1,0 +1,29 @@
+.contact-container{
+    border-radius: 100%;
+}
+.fit-content{
+    width: fit-content;
+    height: fit-content;
+}
+.height-limit{
+    min-height: 550px;
+}
+.contact-section{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10%;
+    background-image: url('../images/contact-circle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 265px;
+}
+.btn-contact{
+    width: 200px;
+    height: 51px;
+}
+.btn-contact{
+    transition: all 0.3s ease-in-out;
+}
+.btn-contact:hover{
+    transform: scale(105%);
+}
