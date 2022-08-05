@@ -27,3 +27,26 @@
 .btn-contact:hover{
     transform: scale(105%);
 }
+
+/* Form */
+
+.btn-send{
+    background-color: #202020;
+    color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.label-contact{
+    font-size: 0.85rem; 
+    color: #ccc;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ced4da !important;
+}
+
+.md-textarea{
+    resize: none;
+}
