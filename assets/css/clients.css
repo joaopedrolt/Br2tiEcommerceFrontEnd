@@ -1,9 +1,44 @@
 .client-img{
-    width: 70px;
-    height: 100px;
+    transition: all 0.4s ease;
 }
 .section-clients{
     border-top: 1px solid #ced4da;
     border-bottom: 1px solid #ced4da;
-    background-color: #f8f4f4;
+}
+.sabesp-img{
+    width: 53px;
+    height: 78px;
+}
+.hyundai-img{
+    width: 58px;
+    height: 54px;
+}
+.senac-img{
+    width: 58px;
+    height: 50px;
+}
+.eternit-img{
+    width: 65px;
+    height: 29px;
+}
+.adm-img{
+    width: 45px;
+    height: 65px;
+}
+.bandes-img{
+    width: 55px;
+    height: 105px;
+}
+.tyson-img{
+    width: 85px;
+    height: 55px;
+}
+.clients-container{
+    max-width: 2000px !important; 
+}
+.client-img:hover{
+    transform: scale(120%);
+}
+.clients{
+    overflow-x: hidden;
 }

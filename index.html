@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +12,7 @@
   <link rel="stylesheet" href="./assets/css/slideshow.css">
   <link rel="stylesheet" href="./assets/css/products.css">
   <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/services.css">
   <script defer src="./assets/js/navbar.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -23,13 +23,12 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <title>Pratica do Boostrap</title>
+  <title>Br2ti</title>
 </head>
-
 <body>
   <header>
     <div class=".container-fluid header-fluid">
-      <div class="container-xxl py-1 res-padding">
+      <div class="container-xxl py-1 res-padding header-container">
         <nav class="navbar navbar-expand-lg navbar-light  flex-nowrap">
           <a class="navbar-brand" href="">
             <img class="img-fluid logo-header" src="./assets/images/logoheader.png">
@@ -287,7 +286,33 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="pb-5 clients">
+      <div class="container-fluid section-clients py-4 mt-3">
+        <div class="container-xxl clients-container">
+          <div class="row p-2">
+            <div class="col d-flex align-items-center justify-content-center client-img">
+              <img src="./assets/images/clients/sabesp.png" alt="" class="sabesp-img">
+            </div>
+            <div class="col d-flex align-items-center justify-content-center client-img">
+              <img src="./assets/images/clients/hyundai.png" alt="" class="hyundai-img">
+            </div>
+            <div class="col d-flex align-items-center justify-content-center client-img">
+              <img src="./assets/images/clients/senac.png" alt="" class="senac-img">
+            </div>
+            <div class="col d-flex align-items-center justify-content-center client-img">
+              <img src="./assets/images/clients/eternit.png" alt="" class="eternit-img">
+            </div>
+            <div class="col d-flex align-items-center justify-content-center client-img">
+              <img src="./assets/images/clients/adm.png" alt="" class="adm-img">
+            </div>
+            <div class="col d-flex align-items-center justify-content-center client-img">
+              <img src="./assets/images/clients/tyson.png" alt="" class="tyson-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5">
       <div class="container-xxl py-2 text-center">
         <h1 class="section-title justify-content-center">Contato</h1>
         <div class="container-xxl">
@@ -461,21 +486,38 @@
         </div>
     </section>
     <section>
-      <div class="container-fluid mt-3 section-clients">
-        <div class="container-xxl">
-          <div class="row p-2">
-            <div class="col text-center">
-              <img src="./assets/images/clients/sabesp.png" alt="" class="client-img">
+      <div class="container-fluid py-5 datacenter-img">
+        <h1 class="section-title text-center" style="color: white;">Serviços</h1>
+        <div class="container-xxl data-center">
+          <div class="row">
+            <div class="col">
+              <div class="card card-services">
+                <div class="card-top-img"></div>
+                <div class="card-body">
+                  <h5 class="card-title">R470</h5>
+                  <p class="card-text">Servidor Customizavel</p>
+                </div>
+              </div>
             </div>
-            <div class="col text-center">...</div>
-            <div class="col text-center">...</div>
-            <div class="col text-center">...</div>
-            <div class="col text-center">...</div>
-            <div class="col text-center">...</div>
-            <div class="col text-center">...</div>
+            <div class="col">
+              <div class="card card-services">
+                <div class="card-top-img"></div>
+                <div class="card-body">
+                  <h5 class="card-title">R470</h5>
+                  <p class="card-text">Servidor Customizavel</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-services">
+                <div class="card-top-img"></div>
+                <div class="card-body">
+                  <h5 class="card-title">R470</h5>
+                  <p class="card-text">Servidor Customizavel</p>
+                </div>
+              </div>
           </div>
         </div>
-      </div>
     </section>
   </main>
   <footer class="text-center text-lg-start bg-light text-muted">
