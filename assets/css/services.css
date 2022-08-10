@@ -8,3 +8,9 @@
 .data-center{
      max-width: 884px;
 }
+.card-title-services{
+    font-family: 'SamsungOne700'
+}
+.card-text-services{
+    font-family: 'SamsungOne400'
+}

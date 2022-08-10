@@ -34,6 +34,11 @@
     font-family: 'SamsungSharpSans';
     font-size: 18px;
 }
+.btn-contact span{
+    width: fit-content;
+    font-family: 'SamsungSharpSans';
+    font-size: 12px;
+}
 
 /* Form */
 
