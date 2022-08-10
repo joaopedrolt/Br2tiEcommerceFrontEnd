@@ -1,3 +1,9 @@
 body{
-    font-family: 'SamsungOne';
+     font-family: 'SamsungOne400'; 
+}
+.section-title{
+    font-weight: 700;
+    color: black;
+    font-family: "SamsungSharpSansB";
+    font-size: 38px;
 }

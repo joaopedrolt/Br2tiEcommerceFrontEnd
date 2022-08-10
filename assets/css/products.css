@@ -1,10 +1,9 @@
-.section-title{
-    font-weight: 700;
-    color: black;
-    font: "SamsungSharpSans";
-}
-
 /* Filter */
+
+.ul-container{
+    max-width: 978px;
+    margin: auto;
+}
 
 .list-group{
     --bs-list-group-border-width: 0px;
@@ -29,8 +28,17 @@
     transform-origin: center;
     transition: opacity 300ms, transform 300ms;
 }
+.style-i{
+    font-family: 'SamsungOne400';
+    font-size: 17px;
+    color: black;
+}
 
 /* Cards */
+
+.card-title-style{
+    font-family: 'SamsungOne700';
+}
 
 .underline:hover::after {
   opacity: 1;
@@ -46,6 +54,7 @@
 }
 .card-text-product{
     margin-bottom: 0px;
+    font-family: 'SamsungOne400';
 }
 .btn-buy-black{
     background-color: black;

@@ -27,6 +27,13 @@
 .btn-contact:hover{
     transform: scale(105%);
 }
+.font-contact-title{
+    font-family: 'SamsungSharpSansM';
+}
+.font-contact-subtitle{
+    font-family: 'SamsungSharpSans';
+    font-size: 18px;
+}
 
 /* Form */
 
