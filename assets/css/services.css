@@ -4,6 +4,9 @@
 }
 .card-services{
     width: 265px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    min-height: 250px;
 }
 .data-center{
      max-width: 884px;
