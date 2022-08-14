@@ -1,0 +1,13 @@
+.aboutusimg{
+    height: auto;
+    max-width: 100%;
+    transition: 0.3s all ease-in-out;
+}
+.aboutus-imgs{
+    max-width: 463px;
+    max-height: 463px;
+    overflow: hidden;
+}
+.aboutus-imgs:hover img{
+    transform: scale(105%);
+}
